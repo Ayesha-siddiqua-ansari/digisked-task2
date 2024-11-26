@@ -1,1 +1,2 @@
-# digisked-task2
+Social Media Profile Page 
+This project is a simple **Social Media Profile Page** designed with HTML, CSS, and JavaScript. It features a responsive layout with a user-friendly design. The profile header showcases a profile picture, user details, and an "Edit Profile" button. The **Posts Feed** section allows users to view posts with descriptions, along with like, comment, and share buttons for interaction. A dedicated **Friends Sidebar** lists friends with profile images and a "View All Friends" button. The project is perfect for practicing web development skills, focusing on layout design, and enhancing interactive UI components.
