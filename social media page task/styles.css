@@ -1,0 +1,184 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsla(213, 46%, 26%, 0.384);
+    color: #615252;
+    line-height: 1.6;
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    background-color: #243f6162;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  .profile-info h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .profile-info .bio {
+    font-size: 1.1em;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .edit-btn {
+    padding: 10px 20px;
+    background-color: #243f6162;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #243f6162;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  
+  .posts-feed {
+    width: 70%;
+  }
+  
+  .post {
+    background-color: #243f6162;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .post-desc {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .post-actions {
+    margin-top: 20px;
+  }
+  
+  .like-btn, .comment-btn, .share-btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    background-color: #243f6162;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .like-btn:hover, .comment-btn:hover, .share-btn:hover {
+    background-color: #243f6162;
+  }
+  
+  /* Friends Sidebar */
+  .friends-sidebar {
+    width: 25%;
+    background-color: #243f6162;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friends-sidebar h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .friends-sidebar ul {
+    list-style: none;
+  }
+  
+  .friends-sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .friends-sidebar li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .view-all-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #243f6162;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #243f6162;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .profile-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-info {
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .main-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .posts-feed, .friends-sidebar {
+      width: 100%;
+    }
+  }
+  
